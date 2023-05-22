@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "MERN social media app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NazarFedus/Social_Media_App.git"
+  },
+  "keywords": [
+    "React",
+    "Mongo",
+    "Nodejs",
+    "Express"
+  ],
+  "author": "Nazar Fedus <nazarfedus5@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NazarFedus/Social_Media_App/issues"
+  },
+  "homepage": "https://github.com/NazarFedus/Social_Media_App#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
